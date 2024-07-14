@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    font-size: larger;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    background-color: #2d3e50;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.profile h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contact, .education, .language, .hobbies {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+.contact ul, .education ul, .language ul, .hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li, .education ul li, .language ul li, .hobbies ul li {
+    margin: 10px 0;
+}
+
+.main {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile-info, .work-experience, .skills-expertise, .certificates {
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.skill-item {
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.certificates ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certificates ul li {
+    margin: 10px 0;
+}
